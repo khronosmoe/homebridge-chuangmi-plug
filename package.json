@@ -27,7 +27,7 @@
     "chuangmi-plug-hmi208"
   ],
   "devDependencies": {
-    "@types/node": "latest"
+    "@types/node": "latest",
     "homebridge": "^1.5.1",
     "rimraf": "latest",
     "typescript": "latest"
