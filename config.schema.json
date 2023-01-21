@@ -1,0 +1,37 @@
+{
+  "pluginAlias": "ChuangmiPlug",
+  "pluginType": "accessory",
+  "singular": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "ip": {
+        "title": "IP Address",
+        "type": "string",
+        "placeholder": "192.168.1.1",
+        "format": "ipv4",
+        "required": true
+      },
+      "token": {
+        "title": "Token",
+        "type": "string",
+        "placeholder": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "minLength": 32,
+        "maxLength": 32,
+        "required": true
+      },
+      "powername": {
+        "title": "Power Name",
+        "type": "string",
+        "placeholder": "Power Plug",
+        "required": true
+      },
+      "usbname": {
+        "title": "USB Name",
+        "type": "string",
+        "placeholder": "USB Plug",
+        "required": true
+      }
+    }
+  }
+}
