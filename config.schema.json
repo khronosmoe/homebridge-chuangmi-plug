@@ -5,6 +5,12 @@
   "schema": {
     "type": "object",
     "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "placeholder": "ChuangmiPlug",
+        "required": true
+      },
       "ip": {
         "title": "IP Address",
         "type": "string",
